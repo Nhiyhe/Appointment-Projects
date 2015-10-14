@@ -12,7 +12,7 @@
       "commit": "3fc1377ce29dd9670975cb68615edf1b819fc4a5"
     },
     "node/node.d.ts": {
-      "commit": "3fc1377ce29dd9670975cb68615edf1b819fc4a5"
+      "commit": "b27d0d0e1ce4207a7a5b1da847cb776c16d7531e"
     },
     "serve-static/serve-static.d.ts": {
       "commit": "3fc1377ce29dd9670975cb68615edf1b819fc4a5"
@@ -22,6 +22,21 @@
     },
     "body-parser/body-parser.d.ts": {
       "commit": "3fc1377ce29dd9670975cb68615edf1b819fc4a5"
+    },
+    "validator/validator.d.ts": {
+      "commit": "b27d0d0e1ce4207a7a5b1da847cb776c16d7531e"
+    },
+    "sequelize/sequelize.d.ts": {
+      "commit": "b27d0d0e1ce4207a7a5b1da847cb776c16d7531e"
+    },
+    "bluebird/bluebird.d.ts": {
+      "commit": "b27d0d0e1ce4207a7a5b1da847cb776c16d7531e"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "b27d0d0e1ce4207a7a5b1da847cb776c16d7531e"
+    },
+    "sqlite3/sqlite3.d.ts": {
+      "commit": "b27d0d0e1ce4207a7a5b1da847cb776c16d7531e"
     }
   }
 }

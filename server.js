@@ -1,11 +1,11 @@
 var express = require('express');
-var _ = require('underscore');
+var app = express();
+
 var bodyParser = require('body-parser');
 var appointments = require('./db/appointments').appointments;
-var id = require('./db/appointments').id;
-
 var appoint = require('./routes/appointments');
-var app = express();
+
+var db = require('./db');
 
 app.use(bodyParser.json());
 var port = process.env.PORT || 3010;
@@ -27,6 +27,12 @@ app.delete('/appointments/:id',appoint.remove);
 
 app.put('/appointments/:id',appoint.update);
 
-app.listen(port, function(){
-	console.log("Server is running on port " + port);
+
+db.sequelize.sync().then(function(){	
+	
+		app.listen(port, function(){
+			console.log("Server is running on port " + port);
+		});
+		
 });
+
